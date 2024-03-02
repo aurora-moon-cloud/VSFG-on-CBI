@@ -26,6 +26,7 @@
 
    This structured data provides a solid foundation for training machine learning models to recognize and classify birdsongs.
 
+
 2. **My Point of Interest**
 
    Compared to directly reflecting certain statistical information, this dataset, although also encompassing a wealth of content, is primarily focused on serving audio purposes. By integrating audio recordings with sample data and leveraging machine learning or deep learning methodologies, this dataset is capable of yielding more specialized and meaningful conclusions regarding computational bioacoustics and avian behavior. 
@@ -33,6 +34,7 @@
    Therefore, my interest in the visualization of this data centers on how to effectively process and extract useful information that can act as a precursor to machine learning or deep learning tasks, ultimately enhancing the serviceability for artificial intelligence missions. 
 
    This also aligns with the intrinsic purpose of the dataset, which is to serve as a resource for bird species identification competitions, aiding the algorithmic models of various teams on Kaggle.
+
 
 3. **Data characteristics**
 
@@ -69,6 +71,7 @@
 
    The dataset's authors are ornithologists and audio processing experts who have carefully curated and annotated the recordings to ensure accurate and reliable labels.  The recordings were likely collected over a period of time, spanning different seasons and locations, to capture a diverse range of bird species and singing behaviors.
 
+
 2. **My Queries**
 
    - How does the duration of bird calls vary with different speeds?
@@ -92,7 +95,9 @@
 
    **Box Plot**
 
-   representing the distribution of observation durations at different speeds. 
+   representing the distribution of observation durations at different speeds.
+
+   <img src="https://github.com/aurora-moon-cloud/VSFG-on-CBI/blob/b0a3bcf6282fe33b22c90ddbbd723dae55ec4617/Box%20Plot(Durations%20by%20Speed).png" alt="Untitled" style="zoom:33%;" />
 
    The data encodings present in this plot are as follows:
 
@@ -102,9 +107,12 @@
 
    The center line inside each box represents the median duration, the top and bottom edges of the box represent the upper and lower quartiles (25% and 75% percentiles), respectively, and the whiskers extend to the most extreme data points within 1.5 times the interquartile range. Any data points beyond this range are represented as individual dots.
 
+
    **Histogram**
 
-   a graphical representation that illustrates the frequency distribution of numerical data. 
+   a graphical representation that illustrates the frequency distribution of numerical data.
+
+   <img src="https://github.com/aurora-moon-cloud/VSFG-on-CBI/blob/b0a3bcf6282fe33b22c90ddbbd723dae55ec4617/Bar%20Chart(Distribution%20of%20Notes).png" alt="Untitled" style="zoom:33%;" />
 
    The data encodings included in this histogram are as follows:
 
@@ -113,17 +121,38 @@
    - **X-axis**: The horizontal axis (X-axis) represents the call durations. It is typically labeled with increasing values indicating the duration in seconds or minutes.
    - **Y-axis**: The vertical axis (Y-axis) represents the frequency or count of calls. It is labeled with numerical values indicating the number of calls that fall within each duration range.
 
+
    **Pie Chart**
 
-   <img src="https://github.com/aurora-moon-cloud/VSFG-on-CBI/blob/7caa80e1291b8dead1705747d38f294278b5acec/Pie%20Chart(Countries).png" alt="Untitled" style="zoom:33%;" />
-
    representing the distribution of bird call samples collected from different countries.
+
+   <img src="https://github.com/aurora-moon-cloud/VSFG-on-CBI/blob/7caa80e1291b8dead1705747d38f294278b5acec/Pie%20Chart(Countries).png" alt="Untitled" style="zoom:33%;" />
 
    The data encodings included in this pie chart are:
 
    - **Country Representation**: Each slice of the pie represents a specific country, where the bird call samples were collected. The size of each slice is proportional to the number of samples collected from that country.
    - **Percentage Labels**: The chart includes percentage labels next to each slice, indicating the proportion of samples contributed by each country. These labels provide a quantitative understanding of the distribution.
    - **Color**: Each country is represented by a different color, which helps distinguish between the various slices of the pie. The color coding makes the chart visually appealing and enhances the readability of the data.
+
+
+   **Mel spectrogram**
+
+   a visualization tool used to represent the acoustic features of sound signals, specifically in this case, the calls of a White-crowned Sparrow. 
+
+   It provides a frequency-time representation of the audio signal, with the Mel scale used to map frequencies onto a more perceptually relevant scale for humans.
+
+   It approximately represents the sound wave patterns and frequency content of the bird's call over time. It captures both the temporal structure of the call, indicating when different frequencies occur, and the spectral structure, indicating the relative strengths of different frequencies at any given moment.
+
+   <img src="https://github.com/aurora-moon-cloud/VSFG-on-CBI/blob/b0a3bcf6282fe33b22c90ddbbd723dae55ec4617/Mel%20Spectrogram%3A%20White-crowned%20Sparrow(XC125252).png" alt="Untitled" style="zoom:33%;" />
+
+   <img src="https://github.com/aurora-moon-cloud/VSFG-on-CBI/blob/b0a3bcf6282fe33b22c90ddbbd723dae55ec4617/Mel%20Spectrogram%3A%20White-crowned%20Sparrow(XC101593).png" alt="Untitled" style="zoom:33%;" />
+
+   The data encodings present in this Mel spectrogram are:
+
+   - **Frequency**: The vertical axis represents frequency, with the Mel scale used to transform linear frequency into a more psychologically relevant scale. This encoding allows us to visualize the frequency content of the bird's call, indicating which frequencies are dominant at different times.
+   - **Time**: The horizontal axis represents time, with the spectrogram showing how the frequency content changes over time. This encoding enables us to understand the temporal structure of the bird's call, identifying any patterns or modulations that occur over time.
+   - **Amplitude**: The color or intensity of each point in the spectrogram represents the amplitude or loudness of the sound at a particular frequency and time. This encoding provides information about the relative strengths of different frequencies at any given moment, indicating which frequencies are louder or softer.
+
 
 3. **Findings & Answers**
 
@@ -134,3 +163,7 @@
    Upon observing the pie chart, it becomes evident that the majority of bird call samples in the dataset were collected from the United States, followed by France. This suggests that these countries may have a more diverse range of bird species or a higher concentration of bird habitats, making them prime locations for bird call sample collection. 
 
    The relatively smaller slices representing Mexico, Canada, and Russia suggest that fewer samples were collected from these countries. This could be due to limited bird habitats, fewer bird species, or less extensive sampling efforts in these regions.
+
+   Upon comparing the spectrograms of the calls of White-crowned Sparrows, significant differences are evident. These disparities can be attributed to various factors such as environmental variations during sampling, behavioral states of the birds, individual differences, recording equipment, and recording conditions. These factors potentially influence the frequency, amplitude, and structure of the sounds captured, resulting in distinct spectral patterns.
+
+   The above information lays a foundation for the further study and research of artificial intelligence algorithm model.
