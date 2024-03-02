@@ -115,7 +115,7 @@
 
    **Pie Chart**
 
-   ![PieChart(Countries)](https://github.com/aurora-moon-cloud/VSFG-on-CBI/blob/7caa80e1291b8dead1705747d38f294278b5acec/Pie%20Chart(Countries).png)
+   <img src="https://github.com/aurora-moon-cloud/VSFG-on-CBI/blob/7caa80e1291b8dead1705747d38f294278b5acec/Pie%20Chart(Countries).png" alt="Untitled" style="zoom:50%;" />
 
    representing the distribution of bird call samples collected from different countries.
 
