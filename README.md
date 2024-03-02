@@ -115,6 +115,8 @@
 
    **Pie Chart**
 
+   ![PieChart(Countries)](https://github.com/aurora-moon-cloud/VSFG-on-CBI/blob/7caa80e1291b8dead1705747d38f294278b5acec/Pie%20Chart(Countries).png)
+
    representing the distribution of bird call samples collected from different countries.
 
    The data encodings included in this pie chart are:
@@ -123,7 +125,7 @@
    - **Percentage Labels**: The chart includes percentage labels next to each slice, indicating the proportion of samples contributed by each country. These labels provide a quantitative understanding of the distribution.
    - **Color**: Each country is represented by a different color, which helps distinguish between the various slices of the pie. The color coding makes the chart visually appealing and enhances the readability of the data.
 
-2. **Findings & Answers**
+3. **Findings & Answers**
 
    Upon observing the box plot, we can conclude that observation durations vary significantly depending on the speed. Some speeds may have a narrower distribution of durations, indicating more consistency in observations, while others may have a wider distribution, indicating more variation. Additionally, certain speeds may have systematically longer or shorter observation durations than others.
 
